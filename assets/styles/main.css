@@ -10,6 +10,7 @@
   flex-direction: column;
 }    
 
+/* Heading Styling */
 #title {
   display: flex;
   align-items: center;
@@ -32,28 +33,32 @@
   object-fit: cover;
 }
 
+
+/* Text block Styling */
+.text-block {
+  padding: 20px;
+  background-color: white;
+  margin: 40px;
+  color: black;
+  text-align: center;
+}
+
 h1 {
   font-size: 300%;
   align-items: center;
-}
+} 
 
 ul {
   text-align: left;
 }
 
+/* Navigation bar styling */
 #nav {
  color: black;
  margin-bottom: 30px;
 }
 
-.text-block {
-    padding: 20px;
-    background-color: white;
-    margin: 40px;
-    color: black;
-    text-align: center;
-}
-
+/* Icon styling */
 .social-media-icon {
   width:42px;
   height:42px
@@ -77,6 +82,7 @@ ul {
   justify-content: center;
 }
 
+/* Pop-up styling */
 /* External source - https://www.w3schools.com/howto/howto_js_popup.asp */
 /* Popup container */
 .popup {
