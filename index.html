@@ -30,6 +30,21 @@
             <p> Our horse-box bar provides an attractive and quirky addition to any occasion.This, combined with our knowledge, expertise and professionalism is why the Box Bar Events Company prides itself on providing a first class bar experience.</p>
             <p> Our friendly and qualified bar hosts will serve your guests a wide range of alcoholic and non-alcoholic drinks, from a wide selection of gins, rums, vodkas, wine, prosecco, draft and bottled beers. The drinks menu can be tailored to your specific requirements.</p>
         </div>
+         <!-- pop ups - external source https://www.w3schools.com/howto/howto_js_popup.asp -->
+         <!-- show pop up text when the user clicks on the div to show extra info -->
+        <div class="popup" onclick="myFunction()">Click here to find out what drinks we stock!
+            <span class="popuptext" id="myPopup">
+                <ul>
+                    <li>Gins</li>
+                    <li>Vodka</li>
+                    <li>Whisky</li>
+                    <li>Pimms</li>
+                    <li>Draft Lager</li>
+                    <li>Bottle Lager</li>
+                    <li>Wine</li>
+                </ul>
+            </span>
+        </div>
         <!-- This image gallery provides a way to show the users images of the bar -->
         <div id="image-gallery"> 
             <div class="column">
@@ -50,3 +65,11 @@
     </div>    
 </body>
 </html>
+
+<script>
+    // When the user clicks on <div>, open the popup
+    function myFunction() {
+      var popup = document.getElementById("myPopup");
+      popup.classList.toggle("show");
+    }
+</script>
