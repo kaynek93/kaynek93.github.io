@@ -86,3 +86,6 @@ Before pushing up any new changes, ensure to check your changes pass the correct
 [HTML Validator](https://validator.w3.org/)
 
 [CSS Validator](https://jigsaw.w3.org/css-validator/)
+
+Manual Testing Procedures: To test the site manual please read the `Testing.md` documentation.
+ 
