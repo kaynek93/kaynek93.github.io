@@ -89,3 +89,12 @@ Before pushing up any new changes, ensure to check your changes pass the correct
 
 Manual Testing Procedures: To test the site manual please read the `Testing.md` documentation.
  
+## Deployment Procedures:
+Deployment of the live site is done using github Pages. When you commit and push a change to the repo it will automatically run the build and deploy checks. Once these checks have all passed your changes will be active on the live site. 
+
+The build will go through 3 checks before deploying the changes: 
+1. pages build and deployment / build (dynamic)
+2. pages build and deployment / report-build-status (dynamic) 
+3. pages build and deployment / deploy (dynamic) 
+
+Live site url: https://kaynek93.github.io/ 
