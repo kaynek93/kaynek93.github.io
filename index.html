@@ -32,7 +32,7 @@
         </div>
          <!-- pop ups - external source https://www.w3schools.com/howto/howto_js_popup.asp -->
          <!-- show pop up text when the user clicks on the div to show extra info -->
-        <div class="popup" onclick="myFunction()">Click here to find out what drinks we stock!
+        <div class="popup" onclick="showDrinksList()">Click here to find out what drinks we stock!
             <span class="popuptext" id="myPopup">
                 <ul>
                     <li>Gins</li>
@@ -68,7 +68,7 @@
 
 <script>
     // When the user clicks on <div>, open the popup
-    function myFunction() {
+    function showDrinksList() {
       var popup = document.getElementById("myPopup");
       popup.classList.toggle("show");
     }
